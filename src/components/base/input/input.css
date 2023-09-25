@@ -6,6 +6,7 @@
   outline: transparent;
   font-size: 16px;
   padding: 0.75em 0.5em;
+  width: 100%;
 }
 
 .form-control::placeholder {
@@ -29,5 +30,5 @@
 .eye-icon {
   position: absolute;
   top: 2.5%;
-  left: 13.5%;
+  left: 98%;
 }

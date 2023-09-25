@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Input from "./components/base/input/Input";
+import Button from "./components/base/button/Button";
 function App() {
   const [email, setEmail] = useState("");
 
@@ -21,6 +22,8 @@ function App() {
         feedbackmessage="email is required"
         hasEye={true}
       />
+
+      <Button buttonLabel="Submit" type="submit" disabled={false} isProcessing={true}/>
     </>
   );
 }
